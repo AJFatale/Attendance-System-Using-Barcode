@@ -1,0 +1,23 @@
+.homeSidebarOption {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.homeSidebarOption:hover {
+    color: white;
+}
+
+.homeSidebarOption_icon {
+    padding: 0 10px;
+}
+
+.homeSidebarOption > p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}

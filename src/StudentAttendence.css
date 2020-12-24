@@ -1,0 +1,33 @@
+.studentAttendence{
+    overflow:hidden;
+    display: flex;
+    height: 100vh;
+ }
+ .studentAttendence_title{
+     color: black;
+ }
+
+ .student_table{
+    background-color: #F8F9FA;
+    flex: 0.8;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    overflow-x:auto;
+ }
+
+ table{
+    border-right: 1px solid darkgrey;
+    border-top: 1px solid darkgrey;
+ }
+ th,td{
+     padding: 15px 0 !important;
+     border-bottom: 1px solid darkgrey;
+     border-left: 1px solid darkgrey;
+ }
+
+ @media(max-width:871px){
+     .student_table{
+         flex: 1;
+     }
+ }

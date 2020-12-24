@@ -1,0 +1,62 @@
+.popUpContent{
+   height: 300px;
+   display: flex;
+}
+
+.popUpContent_Two{
+   display: flex;
+   flex-direction: column;
+}
+.select_option{
+   background-color: #8A2BE2;
+   color: white;
+   border: none;
+   border-radius: 15px;
+   height: 30px;
+   width: 200px;
+   padding: 5px 10px;
+   outline: none;
+   margin: 5px 10px;
+   
+}
+option{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px 2px darkgrey;
+}
+
+.popUpContent_OneTwo{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+.time_display{
+    padding: 5px 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+.discard_button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #F66A83;
+    width: 100px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.popUpContent_TwoForm{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+@media(max-width:871px){
+    .select_option{
+        margin: 0;
+    }
+}

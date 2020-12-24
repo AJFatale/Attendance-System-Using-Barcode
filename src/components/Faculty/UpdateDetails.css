@@ -1,0 +1,61 @@
+.updateDetails {
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.update_form {
+    flex: 0.8;
+    width: 100%;
+    margin: 20px;
+    overflow-x:auto;
+}
+.update_table {
+    background-color: #F8F9FA;
+    flex: 0.8;
+    width: 80%;
+    overflow-x:auto;
+    border: none;
+}
+
+ .update_heading,.update_data{
+     padding: 15px 0 !important;
+     border:none;
+     width: 30%;
+     
+ }
+ .update_heading{
+    width: 30% !important;
+}
+ .update_input{
+     background-color: white !important;
+     color: black !important;
+     padding: 10px;
+     width: 60%;
+ }
+.update_button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #161a2b;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+@media(max-width:871px){
+    .update_form{
+        flex: 1;
+    }
+    .update_table{
+        width: 100%;
+    }
+    .update_heading{
+        width: 20%;
+    }
+    .update_data{
+        width: 100%;
+    }
+}

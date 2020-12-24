@@ -1,0 +1,15 @@
+.homeSidebar {
+    height: 100vh;
+    flex: 0.2;
+    color: white;
+    min-width: 200px;
+    padding: 0 10px;
+    background-color: #040404;
+    position: sticky;
+}
+
+@media(max-width:870px){
+    .homeSidebar{
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+.navOptions {
+   align-items: center !important;
+   display: flex;
+   /* height: 8vh; */
+   padding: 15px;
+}
+
+.nav_mainLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+.nav_link {
+    text-decoration: none;
+}
+
+.nav_register {
+    color: #ffffff;
+    margin: 0 20px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav_button:focus,
+.nav_button:active{
+    outline: none;
+}
+
+@media(max-width:870px){
+    .navOptions{
+        display: none;
+    }
+}

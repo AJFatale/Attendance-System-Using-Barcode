@@ -1,0 +1,76 @@
+.timeTable{
+    overflow:hidden;
+    display: flex;
+    height: 100vh;
+ }
+ .current_class{
+     flex: 0.8;
+     display: flex;
+     margin: 10px;
+ }
+
+ .time_calender{
+     height: 350px;
+ }
+ .select_date{
+     display: flex;
+     flex-direction: column;
+ }
+ .addSlot_button{
+     background-color: #FF00FF;
+     color: white;
+     border: none;
+     width: 100px;
+     padding: 8px;
+     border-radius: 5px;
+     cursor: pointer;
+     outline: none;
+ }
+ .date_title{
+     border: 1px solid darkgrey;
+     padding: 10px;
+     background-color: #8A2BE2;
+     border-radius: 5px;
+     color: white;
+ }
+ .alloted_class{
+     flex: 1;
+     box-shadow:2px 2px 2px 2px darkgrey;
+     border: 1px solid darkgrey;
+     margin: 10px;
+ }
+ .allotedClass_title{
+   color: black;
+   margin: 0 0 10px 20px;
+   padding: 5px;
+ }
+.scheduled_class{
+    margin: 20px;
+    box-shadow:2px 2px 2px 2px darkgrey;
+}
+
+ @media(max-width:871px){
+     .timeTable{
+         height: 100%;
+     }
+    .current_class{
+         flex: 1;
+         display: flex;
+         flex-direction: column;
+    }
+    .date_title{
+        width: 330px;
+    }
+    .alloted_class{
+        padding: 0;
+        margin: 10px 0;
+    }
+ }
+ .registerMain{
+    background-color: #161616;
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    overflow-x: scroll;
+}

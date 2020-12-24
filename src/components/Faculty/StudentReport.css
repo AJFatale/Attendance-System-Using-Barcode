@@ -1,0 +1,8 @@
+.studentReport{
+    overflow:hidden;
+    display: flex;
+    height: 100vh;
+ }
+ .studentReport_title{
+     color: black;
+ }

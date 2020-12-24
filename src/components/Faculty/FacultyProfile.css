@@ -1,0 +1,44 @@
+.facultyProfile{
+    background-color: #ffffff;
+    overflow:hidden;
+    display: flex;
+    height: 100vh;
+}
+.time_display {
+    padding: 5px 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    color: black;
+
+}
+.facultyProfileDetails{
+    flex: 0.75;
+}
+
+.facultyProfileUpdate{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: #161a2b;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+@media(max-width:871px){
+    .facultyProfileDetails{
+        flex: 0.95;
+    }
+}
+.registerMain{
+    background-color: #161616;
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    overflow-x: scroll;
+}

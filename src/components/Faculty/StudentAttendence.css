@@ -1,0 +1,47 @@
+.studentAttendence{
+    overflow:hidden;
+    display: flex;
+    height: 100vh;
+ }
+ .studentAttendence_title{
+     color: black;
+ }
+ .currentClass{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    flex:0.8;
+    overflow-x:auto;
+    margin:15px;}
+    
+ .student_table{
+    background-color: #F8F9FA;
+    flex: 0.8;
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    overflow-x:auto;
+ }
+ .time_display {
+    padding: 5px 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    color: black;
+
+}
+
+ table{
+    border-right: 1px solid darkgrey;
+    border-top: 1px solid darkgrey;
+ }
+ th,td{
+     padding: 15px 0 !important;
+     border-bottom: 1px solid darkgrey;
+     border-left: 1px solid darkgrey;
+ }
+
+ @media(max-width:871px){
+     .student_table{
+         flex: 1;
+     }
+ }

@@ -1,0 +1,37 @@
+.navbar{
+    /* #1A0550 */
+    padding: 0 10px;
+    background-color: #161a2b;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo {
+    color: #ffffff;
+}
+
+.hamburger{
+    font-size: 40px !important;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+@media(min-width: 871px){
+    .navbar_hamburger{
+        display: none;
+    }
+}
+.sidebarNav_button {
+    background: #ffffff;
+    border-style: none;
+    padding: 7px 40px !important;
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
