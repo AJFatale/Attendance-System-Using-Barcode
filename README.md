@@ -1,7 +1,8 @@
 # Getting Started with Attendance System Using Barcode
-1. Copy ams-api folder to your htdoc folder.
-2. Import database file.
-3. Run 'npm start' and navigate to  localhost:3000/
+1. Copy ams-api folder to your htdoc folder of XAMP server.
+2. Start server.
+3. Import database file.
+4. Run 'npm start' and navigate to  http://localhost:3000/
 
 
 # Features
