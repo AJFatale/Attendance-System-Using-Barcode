@@ -4,7 +4,7 @@ export const StudentContext = createContext();
 
 // Define the base URL
 const Axios = axios.create({
-    baseURL: 'http://localhost/ams-api/php-student-login-registration-api/',
+    baseURL: 'http://localhost/ams-api/student-api/',
 });
 
 class StudentContextProvider extends Component {
