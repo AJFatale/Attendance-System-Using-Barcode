@@ -10,7 +10,7 @@ import SidebarNav from './SidebarNav'
 import axios from 'axios'
 
 
-const fetchURL = "http://localhost/ams-api/student-api/"
+const fetchURL = "http://ams-api.freecluster.eu/ams-api/student-api/"
 
 
 function ViewAttendance() {

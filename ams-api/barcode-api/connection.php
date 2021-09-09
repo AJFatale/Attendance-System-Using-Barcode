@@ -1,8 +1,8 @@
 <?php 
     // Set connection variables
-    $server = "localhost";
-    $username = "root";
-    $password = "";
+    $server = "sql109.epizy.com";
+    $username = "epiz_29673553";
+    $password = "MNnU7eYvnQmg12h";
 
     // Create a database connection
     $con = mysqli_connect($server, $username, $password);

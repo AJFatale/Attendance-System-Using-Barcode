@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 24, 2020 at 03:36 PM
--- Server version: 10.4.13-MariaDB
--- PHP Version: 7.4.8
+-- Generation Time: Sep 08, 2021 at 03:02 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -127,7 +127,8 @@ INSERT INTO `faculty` (`id`, `fname`, `course`, `email_id`, `fpassword`) VALUES
 (30, 'Olive Yew', 'CS3002:Operating System', 'oy@faculty.com', '$2y$10$xMSmZPKhzad5iAvorcDRLOQjLl3LtBrkmDVVhXXALhlFZotKcnkBK'),
 (31, 'Aida Bugg.', 'CS3005:Data Mining and warehousing', 'ab@faculty.com', '$2y$10$RF3k2520ymYqTUlRb/Sm6u7PVYhQFm7EY/7qWK6FsqM8UIiv8EFVq'),
 (32, 'Teri Dactyl', 'CS3003:Theory of Computation', 'td@faculty.com', '$2y$10$pB27QJW97wo8r1TqZTAake98mIlrXWWFzwD13k8nOEx6ClDf6ULje'),
-(33, 'XYZ', 'CS3001:Design and Analysis of Algorithm', 'x@faculty.com', '$2y$10$6NNijU3TzlzXTZXSGzDYe.fFqdXYQxYrGQAE7sy.4G0lUkxzenEpC');
+(33, 'XYZ', 'CS3001:Design and Analysis of Algorithm', 'x@faculty.com', '$2y$10$6NNijU3TzlzXTZXSGzDYe.fFqdXYQxYrGQAE7sy.4G0lUkxzenEpC'),
+(34, 'abb', 'CS3002:Operating System', 'abb@faculty.com', '$2y$10$4MORMVNH8wMlbdpI6WFmMe9B.PB1SPl.JanCjPHdLPsjpf3Wvl9BK');
 
 -- --------------------------------------------------------
 
@@ -170,7 +171,8 @@ INSERT INTO `lectures` (`lecture_id`, `course`, `ldate`, `start_time`, `end_time
 (25, 'CS3005:Data Mining and warehousing', '2020-12-23', '10:00:00', '10:00:00'),
 (26, 'CS3005:Data Mining and warehousing', '2020-12-30', '10:00:00', '10:00:00'),
 (27, 'CS3005:Data Mining and warehousing', '2020-12-23', '10:00:00', '10:00:00'),
-(28, 'CS3005:Data Mining and warehousing', '2020-12-23', '10:00:00', '10:00:00');
+(28, 'CS3005:Data Mining and warehousing', '2020-12-23', '10:00:00', '10:00:00'),
+(29, 'CS3002:Operating System', '2021-09-09', '10:00:00', '10:00:00');
 
 -- --------------------------------------------------------
 
@@ -297,13 +299,13 @@ ALTER TABLE `courses`
 -- AUTO_INCREMENT for table `faculty`
 --
 ALTER TABLE `faculty`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 
 --
 -- AUTO_INCREMENT for table `lectures`
 --
 ALTER TABLE `lectures`
-  MODIFY `lecture_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `lecture_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `records`

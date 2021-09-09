@@ -8,7 +8,7 @@ import FacultyLogin from './FacultyLogin'
 import FacultyRegister from './FacultyRegister'
 import axios from 'axios'
 
-const fetchURL = "http://localhost/ams-api/faculty-api/"
+const fetchURL = "http://ams-api.freecluster.eu/ams-api/faculty-api/"
 function StudentAttendence() {
     const { rootState } = useContext(MyContext);
     const { isAuth, theUser, showLogin } = rootState;

@@ -4,7 +4,7 @@ export const MyContext = createContext();
 
 // Define the base URL
 const Axios = axios.create({
-    baseURL: 'http://localhost/ams-api/faculty-api/',
+    baseURL: 'http://ams-api.freecluster.eu/ams-api/faculty-api/',
 });
 
 class MyContextProvider extends Component{

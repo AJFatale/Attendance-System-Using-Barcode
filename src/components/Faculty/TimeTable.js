@@ -15,7 +15,7 @@ import 'react-time-picker/dist/TimePicker.css';
 import 'react-clock/dist/Clock.css';
 import axios from 'axios';
 
-const fetchURL = "http://localhost/ams-api/faculty-api/"
+const fetchURL = "http://ams-api.freecluster.eu/ams-api/faculty-api/"
 
 
 
