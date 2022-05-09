@@ -13,3 +13,6 @@ Faculty:
   
 Students:
   1. View attendance according to registered courses.
+
+# Demo
+https://drive.google.com/file/d/1jXTg47F8ZLrgriRpGJapTT1qs3qSDzIq/view?usp=sharing
